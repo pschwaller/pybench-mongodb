@@ -2,7 +2,6 @@
 
 import logging
 import argparse
-import hjson
 import appdirs
 import time
 import threading
