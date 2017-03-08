@@ -292,6 +292,7 @@ def work():
 
     db = MongoClient("mongodb://localhost:40000", tz_aware=True)
 
+    setup(db)
     thrash_index(db)
 
 
